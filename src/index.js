@@ -8,4 +8,6 @@ function omit(obj, fields) {
   return shallowCopy;
 }
 
-export default omit;
+// export default omit;
+
+omit({ name: 'zhangsan', age: '12' }, ['age']);
